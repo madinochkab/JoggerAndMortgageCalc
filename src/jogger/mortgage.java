@@ -29,9 +29,10 @@ public class mortgage {
 	static float interestRate;
 	static String name;
 	static int propertyID;
+	static Scanner scanner = new Scanner(System.in);
 
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+
 		System.out.println("Whats you name?");
 		input = scanner.nextLine();
 		name = input;
